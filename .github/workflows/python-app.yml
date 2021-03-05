@@ -1,0 +1,49 @@
+print("welcome to my game this is your choice you move according to your choice")
+
+know= input("do you know spiderman?\n")
+if know =="yes":
+  print("aweome, even i like him")
+else:
+  print("OMG,he is a super hero")
+
+
+start=input("can we start the game?\n")
+if start=="yes":
+  print("good, here we start")
+else:
+  print("then why you started") 
+
+print("imagine what i am telling")   
+print("you are going to Gingee in your school. you are travelling in a van.")
+
+time=input("how much time will it take to travel to gingee?(gingee is 72km)you have 3 option 1st=1hr 2nd=2hr 3rd=1hr 30 mins. what do you choose??\n")
+
+if time=="1hr":
+  print("oops, you are wrong. it takes 1hr 30mins. *remember you are going in a van, not in a train.")
+elif time=="2hr":
+  print("nah, you are travelling in a van. not in a cycle.the answer is 1hr 30mins")
+elif time=="1hr 30mins":
+  print('yes, you are right.')  
+else:
+  print("this is not an option. the answer is 1hr 30mins")  
+
+
+print('after 1hr 30mins you reach Gingee')
+
+first=input("first,when you enter Gingee what will you see?\n")
+
+if first=="monkey":
+  print('yep,you are good at noticing things')
+elif first=="mountain":
+  print("yeah,you see a mountain")
+else:
+  print("alright")
+
+steps=input("how many steps are there in gingee?\n")
+
+if steps=="1200":
+  print("you are correct.")
+else:
+  print("you are wrong.it is 1200")  
+
+print("enjoy your trip, stay safe \n THE END")
